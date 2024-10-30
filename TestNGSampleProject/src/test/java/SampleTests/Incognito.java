@@ -16,7 +16,7 @@ public class Incognito {
 		//options.addArguments("--headless");
 		driver= new ChromeDriver(options);
 		
-		
+		System.out.println("---Test----");
 		
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
